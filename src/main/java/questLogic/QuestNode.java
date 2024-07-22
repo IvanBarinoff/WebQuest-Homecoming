@@ -1,3 +1,5 @@
+package questLogic;
+
 public class QuestNode {
     private final int ID;
     private final String MESSAGE_LOSE;
@@ -32,10 +34,10 @@ public class QuestNode {
         return QUESTION;
     }
 
-    public Button getBUTTON(int buttonNamber) {
-        if (buttonNamber == 1)
+    public Button getBUTTON(int buttonNumber) {
+        if (buttonNumber == 1)
             return BUTTON1;
-        else if (buttonNamber == 2)
+        else if (buttonNumber == 2)
             return BUTTON2;
 
         throw new RuntimeException("Incorrect button number");

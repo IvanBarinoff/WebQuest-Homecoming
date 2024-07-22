@@ -1,3 +1,5 @@
+package questLogic;
+
 public class Button {
     private final String NAME;
     private final int LINK_ID;

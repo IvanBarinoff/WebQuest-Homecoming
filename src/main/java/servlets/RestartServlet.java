@@ -1,10 +1,14 @@
+package servlets;
+
+import questLogic.QuestUtil;
+
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "RestartServlet", value = "/restart")
+@WebServlet(name = "servlets.RestartServlet", value = "/restart")
 public class RestartServlet extends HttpServlet {
 
     @Override
