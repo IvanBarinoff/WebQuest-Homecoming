@@ -26,6 +26,11 @@
         <h2>Поражение. ${messageLose}</h2>
         <button onclick="restart()">Начать сначала</button>
     </c:if>
+
+    <p style="position:absolute;left:20px;bottom:20px;margin-bottom:0">
+        Статистика:<br>
+        Количество игр: ${countGames}
+    </p>
 </body>
 
 <script>

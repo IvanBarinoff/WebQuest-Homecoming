@@ -28,6 +28,8 @@ public class InitServlet extends HttpServlet {
         session.setAttribute("win", false);
         session.setAttribute("lose", false);
 
+        session.setAttribute("countGames", RestartServlet.getCountGames());
+
         req.getRequestDispatcher("/index.jsp").forward(req, resp);
     }
 }
